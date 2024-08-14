@@ -1,0 +1,37 @@
+mkdir task-1
+cd task-1
+touch solution.txt
+ls
+mkdir hisham
+ls
+cd hisham
+touch one.txt tow.txt three.txt four.txt
+ls
+mkdir BAD
+ls
+cd BAD
+touch bad.txt
+ls
+cd ..
+mv one.txt /home/human/Downloads
+cd /home/human/Downloads
+ls
+cp one.txt copy.txt
+ls
+cd /home/human/hisham
+nano  two.txt 
+hisham
+cat two.txt
+echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" > three.txt
+at three.txt
+mv three.txt hello.txt
+ls
+rm four.txt
+ls
+rm -r BAD
+ls
+cd
+mkdir task-1
+cd task-1
+touch solution.txt
+history >>solution.txt
